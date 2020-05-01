@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - bolt > inquirer > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > @atlaskit/build-utils > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > bolt > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > @atlaskit/build-utils > inquirer-checkbox-plus-prompt > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > @atlaskit/build-utils > @atlaskit/build-releases > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > @atlaskit/build-utils > inquirer-checkbox-plus-prompt > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - '@atlaskit/build-releases > @atlaskit/build-utils > @atlaskit/build-releases > bolt > inquirer > lodash':
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:53:04.440Z'
