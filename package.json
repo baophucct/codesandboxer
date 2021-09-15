@@ -28,12 +28,12 @@
     "test": "yarn jest"
   },
   "dependencies": {
-    "@atlaskit/build-releases": "^3.0.2",
+    "@atlaskit/build-releases": "^3.0.7",
     "@changesets/cli": "^1.3.0",
     "babel-jest": "^23.6.0",
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
-    "bolt": "^0.23.6",
+    "bolt": "^0.24.6",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "form-data": "^2.3.2",
@@ -54,8 +54,8 @@
     "react-select": "2.0.0-beta.6",
     "resolve": "^1.7.1",
     "webpack": "^4.9.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^4.0.0"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.42",
